@@ -60,7 +60,7 @@ A comunicação assíncrona via Kafka melhora a escalabilidade e desacoplamento 
 O uso de logs permite acompanhar o processamento e detectar possíveis erros rapidamente. 
 
 
-
+```mermaid
 graph LR
     A[Cliente] --> B(BFF)
     B -- Objeto --> C{MongoDB}
